@@ -1,2 +1,2 @@
-# bkgbaylor.github.io
+# bkgbaylor.org
 Official Baylor BKG Fraternity Website
