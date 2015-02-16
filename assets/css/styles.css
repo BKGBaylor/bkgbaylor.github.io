@@ -4,11 +4,11 @@ html,body {
 
 h1 {
   font-family: Arial,sans-serif;
-  color:#DDCCEE;
+  color:#253165;
 }
 
 .lead {
-	color:#DDCCEE;
+	color:#253165;
 }
 
 
@@ -23,7 +23,7 @@ h1 {
 }
 
 .container-full a {
-  color:#efefef;
+  color:#253165;
   text-decoration:none;
 }
 
