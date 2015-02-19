@@ -1,88 +1,374 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-		<meta charset="utf-8">
-		<title>Baylor BKG</title>
-		<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
-		<link href="assets/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-		<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
-		<!--[if lt IE 9]>
-			<script src="//html5shim.googlecode.com/svn/trunk/html5.js"></script>
-		<![endif]-->
-		<link href="assets/css/styles.css" rel="stylesheet">
 
-		<!-- Font Awesome -->
-		<link href="assets/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-	</head>
-	<body>
-<div class="container-full">
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="">
+    <meta name="author" content="">
 
-      <div class="row">
+    <title>BKG Baylor</title>
 
-        <div class="col-lg-12 text-center v-center">
+    <!-- Bootstrap Core CSS -->
+    <link href="css/bootstrap.min.css" rel="stylesheet" type="text/css">
 
-        <h1>Welcome to the Zeta Chapter of Beta Kappa Gamma at Baylor University</h1>
-        <p class="lead">This website is under construction.</p>
+    <!-- Fonts -->
+    <link href="font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+	<link href="css/animate.css" rel="stylesheet" />
+    <!-- Squad theme CSS -->
+    <link href="css/style.css" rel="stylesheet">
+	<link href="color/default.css" rel="stylesheet">
 
-		<div>
-			<br>
-			<ul class="list-inline">
-				<li>
-					<a href="https://www.facebook.com/bkgbaylor" target="_blank"><i class="fa fa-facebook fa-fw fa-3x"></i></a>
-				</li>
-					<li>
-					<a href="https://twitter.com/BUBKG" target="_blank"><i class="fa fa-twitter fa-fw fa-3x"></i></a>
-				</li>
-			</ul>
-		</div>
-		
-		<p class="lead">About Us</p>
-		
-		<p>Beta Kappa Gamma (ΒKΓ) is a national Multicultural fraternity, our brotherhood transcends all 
-		colors and creed. Established at the University of Texas at Austin (UT) on May 6, 1999 Beta Kappa 
-		Gamma's objectives include providing service to the community through various philanthropic 
-		activities, increasing awareness for world hunger relief, promoting academic scholarship, and 
-		creating a strong bond of brotherhood within its ranks. Beta Kappa Gamma was founded by twelve 
-		young men who came together with a single purpose - a vision of creating a timeless institution 
-		to cultivate brotherhood, knowledge, leadership. </p>
-		<br><br><br>
-		<p class="lead">Mission Statement<br>Brotherhood + Knowledge = Growth</p>
-		<p>Beta Kappa Gamma prides itself in its unique effort to promote growth as well as integration 
-		within society. The primary goal and essential mission is to strengthen bonds between existing 
-		peoples while becoming more active in the community. </p>
-		<br><br><br>
-		<p class="lead">Dodge for a Cause</p>
-		<a href="http://dodgeforacause.bkgbaylor.org/">Sign Up Now!</a>
-		<br><br><br>
-		<p class="lead">Rush</p>
-		<p>More information coming soon.</p>
-		<br><br><br>
-		<p class="lead">Philanthropy</p>
-		<p>Beta Kappa Gamma has kept a strong focus on the community during its almost twelve years in 
-		existence and will always continue to do so. Beta Kappa Gamma has worked with several large and 
-		small-scale organizations that help out the community in many different ways. These organizations 
-		range from children shelters to cancer research and prevention foundations to food banks, and much 
-		more. It is one of the primary goals of Beta Kappa Gamma to continuously help out the community 
-		from year to year and we look forward to being able to produce larger and more profound events as 
-		we grow. <br>Specifically, the brothers of Beta Kappa Gamma have focused their philanthropy towards 
-		helping underprivileged children with their Brothers Kollecting Gifts week in the Fall that raises 
-		money for Christmas gifts to be given to disadvantaged children in the local community. During the 
-		Spring semester we team up with Relay For Life to help raise money and fight Cancer. Across the 
-		nation, the brothers of Beta Kappa Gamma time and again make an impact on the communities surrounding 
-		their campuses as well as the global community with their philanthropic focus. </p>
-		<br><br><br>		
-		<!--
-		<iframe width="912px" height="600px" src="https://sway.com/s/HJ7Yh0vB26lCXA9J/embed" frameborder="0" marginwidth="0" marginheight="0" scrolling="no" style="border: none;" allowfullscreen webkitallowfullscreen mozallowfullscreen msallowfullscreen></iframe>
-		-->
+</head>
+
+<body id="page-top" data-spy="scroll" data-target=".navbar-custom">
+	<!-- Preloader -->
+	<div id="preloader">
+	  <div id="load"></div>
+	</div>
+
+    <nav class="navbar navbar-custom navbar-fixed-top" role="navigation">
+        <div class="container">
+            <div class="navbar-header page-scroll">
+                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-main-collapse">
+                    <i class="fa fa-bars"></i>
+                </button>
+                <a class="navbar-brand" href="index.html">
+                    <h1>BKG ZETA</h1>
+                </a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse navbar-right navbar-main-collapse">
+      <ul class="nav navbar-nav">
+        <li class="active"><a href="#intro">Home</a></li>
+        <li><a href="#about">About</a></li>
+		<li><a href="#service">Events</a></li>
+		<li><a href="#contact">Contact</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropdown-toggle" data-toggle="dropdown">Events<b class="caret"></b></a>
+          <ul class="dropdown-menu">
+            <li><a href="http://dodgeforacause.bkgbaylor.org">Dodge for a Cause</a></li>
+            <li><a href="#">Relay for Life</a></li>
+            <li><a href="#">Coming Soon.</a></li>
+          </ul>
+        </li>
+      </ul>
+            </div>
+            <!-- /.navbar-collapse -->
         </div>
+        <!-- /.container -->
+    </nav>
 
-      </div> <!-- /row -->
+	<!-- Section: intro -->
+    <section id="intro" class="intro">
+	
+		<div class="slogan">
+			<h2>WELCOME TO <span class="text_color">BETA KAPPA GAMMA ZETA CHAPTER</span> </h2>
+			<h4>@ BAYLOR UNIVERSITY (WEBSITE UNDER CONSTRUCTION)</h4>
+		</div>
+		<div class="page-scroll">
+			<a href="#events" class="btn btn-circle">
+				<i class="fa fa-angle-double-down animated"></i>
+			</a>
+		</div>
+    </section>
+	<!-- /Section: intro -->
 
-</div> <!-- /container full -->
 
-	<!-- script references -->
-		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.0.2/jquery.min.js"></script>
-		<script src="assets/js/bootstrap.min.js"></script>
-	</body>
+	<!-- Section: about -->
+    <section id="about" class="home-section text-center bg-gray">
+		
+		<div class="heading-about">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="section-heading">
+					<h2>About Us</h2>
+					<i class="fa fa-2x fa-angle-down"></i>
+
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="container">
+		<div class="row">
+			<div class="col-lg-2 col-lg-offset-5">
+				<hr class="marginbot-50">
+			</div>
+		</div>
+        <div class="row">
+            <div class="col-sm-3 col-md-3">
+				<div class="wow fadeInLeft" data-wow-delay="0.2s">
+                <div class="service-box">
+				<!--	<div class="service-icon">
+						<img src="img/icons/service-icon-1.png" alt="" />
+					</div>  -->
+					<div class="service-desc">
+						<h5>Information</h5>
+						<p>Beta Kappa Gamma (ΒKΓ) is a national Multicultural fraternity, our brotherhood transcends all colors and creed. Established at the University of Texas at Austin (UT) on May 6, 1999 Beta Kappa Gamma's objectives include providing service to the community through various philanthropic activities, increasing awareness for world hunger relief, promoting academic scholarship, and creating a strong bond of brotherhood within its ranks. Beta Kappa Gamma was founded by twelve young men who came together with a single purpose - a vision of creating a timeless institution to cultivate brotherhood, knowledge, leadership. </p>
+					</div>
+                </div>
+				</div>
+            </div>
+			<div class="col-sm-3 col-md-3">
+				<div class="wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-box">
+				<!--	<div class="service-icon">
+						<img src="img/icons/service-icon-2.png" alt="" />
+					</div> -->
+					<div class="service-desc">
+						<h5>Mission Statement</h5>
+						<p>Beta Kappa Gamma prides itself in its unique effort to promote growth as well as integration within society. The primary goal and essential mission is to strengthen bonds between existing peoples while becoming more active in the community. </p>
+					</div>
+                </div>
+				</div>
+            </div>
+			<div class="col-sm-3 col-md-3">
+				<div class="wow fadeInUp" data-wow-delay="0.2s">
+                <div class="service-box">
+				<!--	<div class="service-icon">
+						<img src="img/icons/service-icon-3.png" alt="" />
+					</div>  -->
+					<div class="service-desc">
+						<h5>Philanthropy</h5>
+						<p>Beta Kappa Gamma has kept a strong focus on the community during its almost twelve years in existence and will always continue to do so. Beta Kappa Gamma has worked with several large and small-scale organizations that help out the community in many different ways. These organizations range from children shelters to cancer research and prevention foundations to food banks, and much more. It is one of the primary goals of Beta Kappa Gamma to continuously help out the community from year to year and we look forward to being able to produce larger and more profound events as we grow. 
+					</div>
+                </div>
+				</div>
+            </div>
+	<!--		<div class="col-sm-3 col-md-3">
+				<div class="wow fadeInRight" data-wow-delay="0.2s">
+                <div class="service-box">
+					<div class="service-icon">
+						<img src="img/icons/service-icon-4.png" alt="" />
+					</div>
+					<div class="service-desc">
+						<h5>Cloud</h5>
+						<p>Vestibulum tincidunt enim in pharetra malesuada. Duis semper magna metus electram accommodare.</p>
+					</div>
+                </div>
+				</div>
+            </div> -->
+        </div>		
+		</div>
+	</section>
+	<!-- /Section: about -->
+	
+
+
+	<!-- Section: events -->
+    <section id="events" class="home-section text-center">
+		<div class="heading-about">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="section-heading">
+					<h2>Events</h2>
+					<i class="fa fa-2x fa-angle-down"></i>
+
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="container">
+
+		<div class="row">
+			<div class="col-lg-2 col-lg-offset-5">
+				<hr class="marginbot-50">
+			</div>
+		</div>
+        <div class="row">
+            <div class="col-xs-6 col-sm-3 col-md-3">
+				<div class="wow bounceInUp" data-wow-delay="0.2s">
+                <div class="team boxed-grey">
+                    <div class="inner">
+						<h5>Dodge for a Cause</h5>
+                        <p class="subtitle"><a href="http://dodgeforacause.bkgbaylor.org">Sign Up Here</a></p>
+                        <div class="avatar"><img src="img/events/dodgeball.jpg" alt="" class="img-responsive img-circle" /></div>
+                    </div>
+                </div>
+				</div>
+            </div>
+		<!--	<div class="col-xs-6 col-sm-3 col-md-3">
+				<div class="wow bounceInUp" data-wow-delay="0.5s">
+                <div class="team boxed-grey">
+                    <div class="inner">
+						<h5>Maura Daniels</h5>
+                        <p class="subtitle">Ruby on Rails</p>
+                        <div class="avatar"><img src="img/team/2.jpg" alt="" class="img-responsive img-circle" /></div>
+
+                    </div>
+                </div>
+				</div>
+            </div>
+			<div class="col-xs-6 col-sm-3 col-md-3">
+				<div class="wow bounceInUp" data-wow-delay="0.8s">
+                <div class="team boxed-grey">
+                    <div class="inner">
+						<h5>Jack Briane</h5>
+                        <p class="subtitle">jQuery Ninja</p>
+                        <div class="avatar"><img src="img/team/3.jpg" alt="" class="img-responsive img-circle" /></div>
+
+                    </div>
+                </div>
+				</div>
+            </div>
+			<div class="col-xs-6 col-sm-3 col-md-3">
+				<div class="wow bounceInUp" data-wow-delay="1s">
+                <div class="team boxed-grey">
+                    <div class="inner">
+						<h5>Tom Petterson</h5>
+                        <p class="subtitle">Typographer</p>
+                        <div class="avatar"><img src="img/team/4.jpg" alt="" class="img-responsive img-circle" /></div>
+
+                    </div>
+                </div>
+				</div>
+            </div> -->
+        </div>		
+		</div>
+	</section>
+	<!-- /Section: about -->	
+
+
+	
+
+	<!-- Section: contact -->
+    <section id="contact" class="home-section text-center">
+		<div class="heading-contact">
+			<div class="container">
+			<div class="row">
+				<div class="col-lg-8 col-lg-offset-2">
+					<div class="wow bounceInDown" data-wow-delay="0.4s">
+					<div class="section-heading">
+					<h2>Get in touch</h2>
+					<i class="fa fa-2x fa-angle-down"></i>
+
+					</div>
+					</div>
+				</div>
+			</div>
+			</div>
+		</div>
+		<div class="container">
+
+		<div class="row">
+			<div class="col-lg-2 col-lg-offset-5">
+				<hr class="marginbot-50">
+			</div>
+		</div>
+    <div class="row">
+        <div class="col-lg-8">
+            <div class="boxed-grey">
+                <form id="contact-form">
+                <div class="row">
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Name</label>
+                            <input type="text" class="form-control" id="name" placeholder="Enter name" required="required" />
+                        </div>
+                        <div class="form-group">
+                            <label for="email">
+                                Email Address</label>
+                            <div class="input-group">
+                                <span class="input-group-addon"><span class="glyphicon glyphicon-envelope"></span>
+                                </span>
+                                <input type="email" class="form-control" id="email" placeholder="Enter email" required="required" /></div>
+                        </div>
+                        <div class="form-group">
+                            <label for="subject">
+                                Subject</label>
+                            <select id="subject" name="subject" class="form-control" required="required">
+                                <option value="na" selected="">Choose One:</option>
+                                <option value="service">General Customer Service</option>
+                                <option value="suggestions">Suggestions</option>
+                                <option value="product">Product Support</option>
+                            </select>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="form-group">
+                            <label for="name">
+                                Message</label>
+                            <textarea name="message" id="message" class="form-control" rows="9" cols="25" required="required"
+                                placeholder="Message"></textarea>
+                        </div>
+                    </div>
+                    <div class="col-md-12">
+                        <button type="submit" class="btn btn-skin pull-right" id="btnContactUs">
+                            Send Message</button>
+                    </div>
+                </div>
+                </form>
+            </div>
+        </div>
+		
+		<div class="col-lg-4">
+			<div class="widget-contact">
+				<h5>Mailing Address</h5>
+				
+				<address>
+				  <strong>Beta Kappa Gamma Zeta</strong><br>
+				  One Bear Place #85597<br>
+				  Waco, Texas, United States 76798<br>
+				  <abbr title="Phone">P:</abbr> (123) 456-7890
+				</address>
+
+				<address>
+				  <strong>Email</strong><br>
+				  <a href="mailto:#">bkgbaylor@gmail.com</a>
+				</address>	
+				<address>
+				  <strong>We're on social networks</strong><br>
+                       	<ul class="company-social">
+                            <li class="social-facebook"><a href="https://www.facebook.com/bkgbaylor" target="_blank"><i class="fa fa-facebook"></i></a></li>
+                            <li class="social-twitter"><a href="https://twitter.com/BUBKG" target="_blank"><i class="fa fa-twitter"></i></a></li>
+                        </ul>	
+				</address>					
+			
+			</div>	
+		</div>
+    </div>	
+
+		</div>
+	</section>
+	<!-- /Section: contact -->
+
+	<footer>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-12 col-lg-12">
+					<div class="wow shake" data-wow-delay="0.4s">
+					<div class="page-scroll marginbot-30">
+						<a href="#intro" id="totop" class="btn btn-circle">
+							<i class="fa fa-angle-double-up animated"></i>
+						</a>
+					</div>
+					</div>
+					<p>&copy;Copyright 2014 - Squad. All rights reserved.</p>
+					<p>Programmed by S2W Development and Pradyuman Vig.</p>
+				</div>
+			</div>	
+		</div>
+	</footer>
+
+    <!-- Core JavaScript Files -->
+    <script src="js/jquery.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/jquery.easing.min.js"></script>	
+	<script src="js/jquery.scrollTo.js"></script>
+	<script src="js/wow.min.js"></script>
+    <!-- Custom Theme JavaScript -->
+    <script src="js/custom.js"></script>
+
+</body>
+
 </html>
