@@ -44,6 +44,16 @@ header{width: 100%; height: 60px; position: fixed; top:0;}
 #services .icon-wrapper{background:#fff;border-radius:50%;height:54px;left:-7px;padding:3px;position:absolute;top:-30px;width:54px}
 #services .icon-wrapper i{background:#fff;color:#3296FF;border:2px solid #3296FF;border-radius:50%;font-size:30px;height:48px;line-height:48px;text-align:center;width:48px;-webkit-transition:all .5s ease;-moz-transition:all .5s ease;transition:all .5s ease}
 #services .service-box:hover i{background:#3296FF;color:#fff}
+
+#rush{background:#fff;padding-bottom:50px}
+#rush .service-box{position:relative;border:1px solid #3296FF;margin-bottom:48px}
+#rush .content{color:#fff;text-align:center;background:#3296FF;border:4px solid #fff;padding:10px 14px}
+#rush .content h2{font-size:20px;font-weight:300;text-transform:uppercase}
+#rush .content p{line-height:22px;font-weight:300}
+#rush .icon-wrapper{background:#fff;border-radius:50%;height:54px;left:-7px;padding:3px;position:absolute;top:-30px;width:54px}
+#rush .icon-wrapper i{background:#fff;color:#3296FF;border:2px solid #3296FF;border-radius:50%;font-size:30px;height:48px;line-height:48px;text-align:center;width:48px;-webkit-transition:all .5s ease;-moz-transition:all .5s ease;transition:all .5s ease}
+#rush .service-box:hover i{background:#3296FF;color:#fff}
+
 #about{background:url(../img/background/bg-1.jpg) center center no-repeat;background-size:cover;color:#fff}
 #about .section-title span{color:#fff}
 #about .side-left{text-align:center}
