@@ -19,6 +19,7 @@ img{max-width:100%}
 .btn-common:hover{background:#585858}
 header{width: 100%; height: 60px; position: fixed; top:0;}
 #header .main-navigation{background:#fff;border-bottom:2px solid #3296FF}
+#header .navbar-fixed-top{background:#fff; border-bottom:2px solid #3296FF}
 #header .navbar-brand{height:auto}
 #header .nav{list-style:none;margin-top:16px}
 #header .nav li{margin:0 0 0 24px}
