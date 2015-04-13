@@ -55,6 +55,17 @@ header{width: 100%; height: 60px; position: fixed; top:0;}
 #rush .icon-wrapper i{background:#fff;color:#3296FF;border:2px solid #3296FF;border-radius:50%;font-size:30px;height:48px;line-height:48px;text-align:center;width:48px;-webkit-transition:all .5s ease;-moz-transition:all .5s ease;transition:all .5s ease}
 #rush .service-box:hover i{background:#3296FF;color:#fff}
 
+#next{background:#333;background-size:cover;text-align:center}
+#next .main-text{margin:20px 0}
+#next .main-text h1{font-weight:500;font-size:50px;color:#3296FF}
+#next .main-text h1 span{color:#fff}
+#next .main-text h2{color:#fff;font-size:20px;font-weight:200;line-height:20px}
+#next .main-text .btn{font-size:20px;padding:12px 30px;margin-top:30px}
+#next .service-box{position:relative;border:1px solid #3296FF;margin-bottom:48px}
+#next .content{color:#fff;text-align:center;background:#3296FF;border:4px solid #fff;padding:10px 14px}
+#next .content h2{font-size:20px;font-weight:300;text-transform:uppercase}
+#next .content p{line-height:22px;font-weight:300}
+
 #pictures{background:url(../img/background/bg-1.jpg) center center no-repeat;background-size:cover;color:#fff}
 #pictures .section-title span{color:#fff}
 #pictures .side-left{text-align:center}
