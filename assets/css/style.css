@@ -189,7 +189,7 @@ header{width: 100%; height: 60px; position: fixed; top:0;}
 #testimonial .testimonial-info img{position:absolute;top:-35px;left:70px;width:68px;height:68px;border-radius:100%;border:4px solid #3296FF}
 #testimonial .testimonial-info p{font-size:16px;font-weight:300;color:#fff;padding:18px 0;text-align:center}
 #testimonial .owl-theme .owl-controls .owl-page span{width:50px;height:10px;background:#3296FF;margin:20px 8px}
-#contact{background:#333;background-size:cover}
+#contact{background:#fff;background-size:cover}
 #contact .section-title span{color:#fff}
 #contact .contact-form .controls{padding-bottom:20px}
 #contact .contact-form .controls input.contact_input{color:#000;background-color:#fff;float:left;border:1px solid #3296FF;font-size:14px;font-weight:300;height:48px;padding:0 12px;width:88%}
