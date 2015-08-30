@@ -824,22 +824,22 @@ and (max-width : 768px) {
 .latest-post h4 {
     font-weight: 300;
     font-family: 'Oswald', sans-serif;
-    text-align: center;
+    text-align: justify;
 }
 
 .latest-post h4 a {
     font-size: 20px;
-    text-align: center;
+    text-align: justify;
 }
 
 .latest-post p {
     padding-top: 10px;
-    text-align: center;
+    text-align: justify;
 }
 
 .latest-post .news-details {
     padding-top: 5px;
-    text-align: center;
+    text-align: justify;
 }
 
 .latest-post a {
