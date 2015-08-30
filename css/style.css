@@ -762,8 +762,8 @@ and (max-width : 768px) {
 }
 
 .overlay {
-    padding-top: 30px;
-    padding-bottom: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
 }
 
 .call-to-action h1 {
@@ -812,29 +812,34 @@ and (max-width : 768px) {
     background: #fff;
     border: 1px solid #f1f1f1;
     margin-top: 30px;
-    padding: 0 0 15px 20px;
+    
+    //margin-bottom: 30px;
+    padding: 0 0 23px 20px;
 }
 
 .latest-post {
-    padding-right: 20px;
+    padding-right: 0;
 }
 
 .latest-post h4 {
     font-weight: 300;
     font-family: 'Oswald', sans-serif;
+    text-align: center;
 }
 
 .latest-post h4 a {
     font-size: 20px;
+    text-align: center;
 }
 
 .latest-post p {
     padding-top: 10px;
-    text-align: justify;
+    text-align: center;
 }
 
 .latest-post .news-details {
     padding-top: 5px;
+    text-align: center;
 }
 
 .latest-post a {
